@@ -80,6 +80,17 @@ p {
   font-size: 150%;
   margin-bottom:10vh;
 }
+    .nav {
+  position:sticky;
+  opacity:0.8;
+  top:0;
+  background-color:black;
+  display:flex;
+  height:13vh;
+  flex-direction: row;
+  justify-content:center;
+  z-index: 1;
+}
 }
 
 @media all and (min-device-aspect-ratio:1/1) {
@@ -126,7 +137,7 @@ h3 {
 }
     h1 {
   text-align: center;
-  margin-top:5vh;
+  margin-top:10vh;
   font-size: 150%;
   margin-bottom:10vh;
 }
