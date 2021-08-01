@@ -253,6 +253,9 @@ h3 {
   justify-content:center;
   z-index: 1;
 }
+.hamburger-menu {
+		display:none;
+}
 }
 
 
