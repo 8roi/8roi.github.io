@@ -195,9 +195,10 @@
   background-color: black;
   scroll-snap-align:end;
 }
-	.container1 {
+.container1 {
   grid-column:1/2;
   grid-row:2/3;
+  height:100vh;
   background: url("../img/black_00080.jpg");
 }
 .container1 h1, .container1 h2 {
@@ -206,6 +207,7 @@
 	
 .container2 {
   background-color: white;
+  height:100vh;
   grid-column:1/2;
   grid-row:3/4;
   align-content: center;
