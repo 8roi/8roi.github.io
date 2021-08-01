@@ -259,6 +259,9 @@ h3 {
 .hamburger-menu {
 		display:none;
 }
+.keirekishashin {
+	float:left;
+}
 }
 .nav a {
   width:15%;
