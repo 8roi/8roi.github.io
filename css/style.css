@@ -188,7 +188,7 @@
     .grid {
       display: grid;
       grid-template-columns:1fr;
-      grid-template-rows:40vh 40vh 40vh 40vh 25vh;
+      grid-template-rows:100vh 100vh 100vh 100vh 25vh;
       height:185vh;
       font-size: 50%;
     }
