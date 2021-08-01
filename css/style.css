@@ -24,7 +24,7 @@
       display: grid;
       grid-template-columns:1fr;
       grid-template-rows:100vh 100vh 100vh　50vh;
-      height:450vh;
+      height:350vh;
     }
     .grid > div {
       scroll-snap-align:start;
@@ -203,7 +203,7 @@
       display: grid;
       grid-template-columns:1fr;
       grid-template-rows:100vh 40vh;
-      height:185vh;
+      height:140vh;
       font-size: 50%;
     }
     .container1_1 {
