@@ -74,6 +74,12 @@ p {
   flex-direction: column;
   justify-content: space-around;
 }
+    h1 {
+  text-align: center;
+  margin-top:5vh;
+  font-size: 150%;
+  margin-bottom:10vh;
+}
 }
 
 @media all and (min-device-aspect-ratio:1/1) {
@@ -117,6 +123,12 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+    h1 {
+  text-align: center;
+  margin-top:10vh;
+  font-size: 150%;
+  margin-bottom:10vh;
 }
 }
 
@@ -198,13 +210,6 @@ dt,dd {
 }
 dd {
   margin-left: 10px;
-}
-
-h1 {
-  text-align: center;
-  margin-top:10vh;
-  font-size: 150%;
-  margin-bottom:10vh;
 }
 
 h2 {
