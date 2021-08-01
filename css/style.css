@@ -181,6 +181,10 @@
       border-bottom: solid black 2px;
       transition:0.5s;
     }
+ .head_logo {
+  width:30%;
+  height:100%;
+}
   }
 
 /*smartphone----------------------------------------------------*/
@@ -291,6 +295,10 @@
       border-bottom: solid black 2px;
       transition:0.5s;
     }
+ .head_logo {
+  width:100%;
+  height:100%;
+}
   }
 
 .header {
@@ -369,10 +377,7 @@
   margin-top:1vh;
 }
 
-.head_logo {
-  width:30%;
-  height:100%;
-}
+
 .head_logo img {
   width:100%;
   height:100%;
