@@ -202,8 +202,8 @@
     .grid {
       display: grid;
       grid-template-columns:1fr;
-      grid-template-rows:100vh 40vh;
-      height:140vh;
+      grid-template-rows:100vh;
+      height:100vh;
       font-size: 50%;
     }
     .container1_1 {
