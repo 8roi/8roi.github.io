@@ -290,6 +290,7 @@
       margin-top:10%;
       text-align: center;
       font-size:130%;
+      border:solid white 1px;
     }
     .footnav a {
       width:15%;
@@ -405,7 +406,7 @@
     left: 0;/*メニューを画面内へ*/
 }	
 
-	.nav {
+.nav {
      display:none;
 }
 	  
@@ -419,9 +420,6 @@
   flex-direction:row;
   background: url("../img/black_00080.jpg");
 
-}
-
-  display:none;
 }
 
 .nav {
