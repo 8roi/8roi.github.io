@@ -403,9 +403,11 @@
 #menu-btn-check:checked ~ .menu-content {
     left: 0;/*メニューを画面内へ*/
 }	
-.nav {
+
+	.nav {
      display:none;
 }
+	  
 }
 
 .header {
