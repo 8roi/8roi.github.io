@@ -315,7 +315,7 @@
     justify-content: center;
     align-items: center;
     z-index: 90;
-    background-color: #3584bb;
+    background-color: black;
 }
 .menu-btn span,
 .menu-btn span:before,
@@ -356,7 +356,7 @@
     top: 0;
     left: 0;
     z-index: 80;
-    background-color: #3584bb;
+    background-color: black;
 }
 .menu-content ul {
     padding: 70px 10px 0;
@@ -394,12 +394,15 @@
     top: 0;
     left: 100%;/*leftの値を変更してメニューを画面外へ*/
     z-index: 80;
-    background-color: #3584bb;
+    background-color: black;
     transition: all 0.5s;/*アニメーション設定*/
 }
 #menu-btn-check:checked ~ .menu-content {
     left: 0;/*メニューを画面内へ*/
 }	
+.nav {
+     display:none;
+}
 }
 
 .header {
