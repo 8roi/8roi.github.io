@@ -126,9 +126,20 @@ h3 {
 }
     h1 {
   text-align: center;
-  margin-top:10vh;
+  margin-top:5vh;
   font-size: 150%;
   margin-bottom:10vh;
+}
+.nav {
+  position:sticky;
+  opacity:0.8;
+  top:0;
+  background-color:black;
+  display:flex;
+  height:8vh;
+  flex-direction: row;
+  justify-content:center;
+  z-index: 1;
 }
 }
 
@@ -164,17 +175,7 @@ h3 {
   margin-top:4px;
 
 }
-.nav {
-  position:sticky;
-  opacity:0.8;
-  top:0;
-  background-color:black;
-  display:flex;
-  height:8vh;
-  flex-direction: row;
-  justify-content:center;
-  z-index: 1;
-}
+
 .nav a {
   width:15%;
   height:100%;
