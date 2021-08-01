@@ -192,6 +192,9 @@ p {
 .nav {
      display:none;
 }
+.keireki {
+	font-size:30%;
+}
 }
 
 @media all and (min-device-aspect-ratio:1/1) {
