@@ -185,9 +185,16 @@
   width:30%;
   height:100%;
 }
-      .hamburger-menu {
+  .hamburger-menu {
           display:none;
-      }
+}
+	  
+.footer {
+  grid-column:1/2;
+  grid-row:4/5;
+  background-color: black;
+  scroll-snap-align:end;
+}
 }
 
 /*smartphone----------------------------------------------------*/
@@ -195,7 +202,7 @@
     .grid {
       display: grid;
       grid-template-columns:1fr;
-      grid-template-rows:100vh 100vh 100vh 40vh;
+      grid-template-rows:100vh 40vh;
       height:185vh;
       font-size: 50%;
     }
@@ -409,6 +416,13 @@
 .nav {
      display:none;
 }
+	
+.footer {
+  grid-column:1/2;
+  grid-row:2/3;
+  background-color: black;
+  scroll-snap-align:end;
+}  
 	  
 }
 
@@ -499,12 +513,6 @@
 }
 
 
-.footer {
-  grid-column:1/2;
-  grid-row:4/5;
-  background-color: black;
-  scroll-snap-align:end;
-}
 .footer * {
   color:white;
 }
