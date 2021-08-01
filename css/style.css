@@ -195,6 +195,24 @@
   background-color: black;
   scroll-snap-align:end;
 }
+	.container1 {
+  grid-column:1/2;
+  grid-row:2/3;
+  background: url("../img/black_00080.jpg");
+}
+.container1 h1, .container1 h2 {
+  color:white;
+}
+	
+.container2 {
+  background-color: white;
+  grid-column:1/2;
+  grid-row:3/4;
+  align-content: center;
+}
+.container2 h1 ,.container2 h2 {
+  color:black;
+}
 }
 
 /*smartphone----------------------------------------------------*/
@@ -392,14 +410,7 @@
   text-align: center;
   margin-top:1vh;
 }
-.container1 {
-  grid-column:1/2;
-  grid-row:2/3;
-  background: url("../img/black_00080.jpg");
-}
-.container1 h1, .container1 h2 {
-  color:white;
-}
+
 
 .food img {
   width:100%;
@@ -408,23 +419,6 @@
 .food p {
   text-align: center;
 }
-
-
-.container2 {
-  background-color: white;
-  grid-column:1/2;
-  grid-row:3/4;
-  align-content: center;
-}
-.container2 h1 ,.container2 h2 {
-  color:black;
-}
-
-.instagram {
-  width:10%;
-  height:10%;
-}
-
 .footer * {
   color:white;
 }
