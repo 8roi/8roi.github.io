@@ -230,89 +230,16 @@
       margin-left:10vw;
       margin-top:10%;
     }
-    .container-food {
-      width:90%;
-      height:70%;
-      margin-left:9%;
-      margin-top:10%;
-      display:flex;
-      flex-direction: row;
-      align-content: space-between;
-    }
-    .container-food2 {
-      width:90%;
-      height:70%;
-      margin-left:9%;
-      margin-top:10%;
-      display:flex;
-      flex-direction: row;
-      align-content: space-between;
 
-    }
-    .food {
-      width:30%;
-      height:40%;
-      border:solid white 2px;
-      z-index:2;
-      background-color:transparent;
-    }
-    .inner-container {
-      background-color:white;
-      opacity:0.8;
-      width:70%;
-      margin-left:15%;
-      margin-bottom:30px;
-    }
-    .yoyaku2 {
-      width:30%;
-      height:10%;
-      position: relative;
-      border: black solid 1px;
-      left:60%;
-      top:-30%;
-    }
-    .yoyaku2 p {
-      color:black;
-      text-align: center;
-      margin-top:3%;
-    }
-    .yoyaku2 p::after {
-      display:block;
-      width:10px;
-      height:10px;
-      border-top:white solid 2px;
-      border-right:white solid 2px;
-      transform: rotate(-90);
-      background-color:white;
-    }
-    .footnav {
-      display:flex;
-      flex-direction:row;
-      flex-wrap: row;
-      justify-content: space-around;
-      width: 100%;
-      height:30%;
-    }
-    .footnav p {
-      margin-top:10%;
-      text-align: center;
-      font-size:130%;
-      border:solid white 1px;
-    }
-    .footnav a {
-      width:15%;
-      height:100%;
-    }
-    .footnav a:hover {
-      border-bottom: solid black 2px;
-      transition:0.5s;
-    }
  .head_logo {
   width:100%;
   height:100%;
 }
  .slide {
           display:none;
+}
+.footer {
+	display:none;
 }
  .menu-btn {
     position: fixed;
@@ -422,7 +349,13 @@
   grid-row:2/3;
   background-color: black;
   scroll-snap-align:end;
-}  
+	  }  
+.container1 {
+	display:none;
+}
+.container2 {
+	display:none;
+}
 	  
 }
 
