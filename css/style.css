@@ -374,6 +374,9 @@
 .container1_1 {
 	display:none;
 }
+.nav {
+        display:none;
+}
 }
 
 .header {
